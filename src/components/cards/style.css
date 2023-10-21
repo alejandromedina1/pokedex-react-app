@@ -1,0 +1,52 @@
+.card-container {
+    display: flex;
+    flex-direction: row;
+    width: inherit;
+    height: inherit;
+    background: rgba(255, 255, 255, .05);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(10px);
+    border-radius: 8px;
+    width: 350px;
+    flex-basis: 200;
+    padding: 20px;
+}
+
+.info-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.pokemon-image {
+    width: 150px;
+}
+
+.pokemon-id{
+    text-align: start;
+}
+
+.pokemon-name{
+    text-align: start;
+}
+
+.pokemon-type{
+    text-align: start;
+}
+
+.pokemon-weight{
+    text-align: start;
+}
+p{
+    margin: 0;
+}
+h2{
+    margin: 0;
+}
+h3{
+    margin: 0;
+}
+
+.about{
+    margin-top: 20px;
+}
